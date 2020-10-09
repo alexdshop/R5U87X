@@ -33,6 +33,7 @@ Ubuntu
 	$ sudo apt-get install libglib2.0-dev libusb-dev build-essential gcc automake mercurial
 	$ hg clone http://bitbucket.org/ahixon/r5u87x/
 	$ cd r5u87x
+	$ make clean
 	$ make
 	$ sudo make install
 	$ sudo r5u87x-loader --reload
